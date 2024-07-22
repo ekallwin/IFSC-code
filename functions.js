@@ -29,7 +29,7 @@ function validateIFSC() {
                     "District: " + data.DISTRICT + "<br><br>" +
                     "State: " + data.STATE + "<br><br>" +
                     "Electronic fund transfer availability status" + "<br>"+
-                    "IMPS: " + imps + "<br><br>" + "NEFT: " + neft + " " "<br><br>" +"RTGS: " + rtgs + "<br><br>" +
+                    "IMPS: " + imps + " " + "NEFT: " + neft + " " +"RTGS: " + rtgs + "<br><br>" +
                     "UPI availability status: " + upi + "<br><br>"+
                     "MICR code: " + micr + "<br><br>"+
                     "SWIFT code: " + swift + "<br><br>";
