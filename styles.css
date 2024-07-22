@@ -6,13 +6,6 @@
 #result {
     font-size: 20px;
 }
-#main {
-    padding-left: 500px;
-}
-#main1 {
-    padding-left: 500px;
-    padding-right: 450px;
-}
 #button {
     padding: 5px;
     margin-left: 5px;
@@ -21,4 +14,28 @@
 }
 .error {
     color: red;
+}
+/* Styles for desktop devices */
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
 }
