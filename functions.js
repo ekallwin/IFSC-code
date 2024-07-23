@@ -40,3 +40,13 @@ function validateIFSC() {
             });
     }, 500);
 }
+// Disable right-click context menu and show alert
+document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+    alert("Right click is disabled due to security reasons");
+});
+document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && (e.key === "I" || e.key === "i" || e.key === "U" || e.key === "u")) {
+        e.preventDefault();
+    }
+});
